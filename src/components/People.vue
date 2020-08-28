@@ -5,7 +5,7 @@
         <div class="col-sm-4" v-for="people in peoples">
         <div class="card bg-light" style="width:400px">
             <div class="card-body">
-            <img class="card-img-top" :src="`../assets/${peoples.name}.jpg`" alt="Card image">
+            <img class="card-img-top" :src="`../assets/${people.name}.jpg`" alt="Card image">
               <h3 class="card-title">{{people.name}}</h3>
               <p class="card-text">Größe : {{people.height}} cm</p>
               <p class="card-text">Haarfarbe : {{people.hair_color}}</p>
